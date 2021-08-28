@@ -1,0 +1,28 @@
+:root {
+    --clr-primary-700: #808080;
+    --clr-primary-200: #ffa500;
+    --crl-primary-100: #fff;
+}
+
+body {
+    background-color: var(--crl-primary-100);
+}
+
+#container {
+    background-color: var(--clr-primary-700);
+    height: 745px;
+    /*intrinsic size*/
+    width: 395px;
+}
+
+h1 {
+    color: var(--crl-primary-100);
+    padding: 10px 0 0 35px;
+}
+
+.square {
+    background-color: var(--clr-primary-200);
+    height: 150px;
+    width: 150px;
+    margin: 10px 0 0 45px;
+}
